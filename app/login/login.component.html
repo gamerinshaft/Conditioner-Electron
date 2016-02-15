@@ -1,0 +1,17 @@
+<div class="signup">
+  <div class="p-container">
+    <h1 class="str-u-text-center"></h1>
+    <p class="str-u-text-center str-u-m20-b p-description">ログイン</p>
+    <div class="str-form">
+      <div class="str-form-group">
+        <input [(ngModel)]="email" type="email" placeholder="メールアドレス" />
+      </div>
+      <div class="str-form-group">
+        <input [(ngModel)]="password" type="password" placeholder="パスワード" />
+      </div>
+      <div class="str-form-group">
+        <button class="str-btn str-btn-block str-btn-cuxino" (click)=submit()>ログイン</button>
+      </div>
+    </div>
+  </div>
+</div>

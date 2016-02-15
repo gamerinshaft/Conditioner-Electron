@@ -1,0 +1,28 @@
+.ng-sidebar {
+  background-color: #1f1f1f;
+  box-shadow: -4px 0px 14px black inset;
+  height: 100%;
+  overflow: scroll;
+}
+
+h1 {
+  color: #ccc;
+  padding: 8px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 16px;
+  padding: 8px;
+  /*border-bottom: 1px solid white;*/
+}
+
+ul li:hover {
+  background-color: #0f0f0f;
+}
